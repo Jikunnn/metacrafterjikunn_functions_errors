@@ -6,8 +6,8 @@ This Solidity smart contract demonstrates the use of `require()`, `assert()`, an
 
 The contract includes three main functions:
 - `updateBalance(uint _value)`: Updates the contract's `balance` state variable. Uses `require()` to ensure the input value is greater than 0.
-- `assertExample()`: Uses `assert()` to ensure the `balance` is greater than 0.
-- `revertExample(uint _value)`: Uses `revert()` to revert the transaction if the input value is less than or equal to 0.
+- `assert_jikunn()`: Uses `assert()` to ensure the `balance` is greater than 0.
+- `revert_jikunn(uint _value)`: Uses `revert()` to revert the transaction if the input value is less than or equal to 0.
 
 ## Functions
 
