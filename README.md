@@ -16,10 +16,10 @@ The contract includes three main functions:
 - **Requirements**: The input `_value` must be greater than 0.
 - **Event**: Emits `BalanceUpdated` when the balance is updated.
 
-### assertExample()
+### assert_jikunn()
 - **Description**: Ensures that the balance is greater than 0 using `assert()`.
 
-### revertExample(uint _value)
+### revert_jikunn(uint _value)
 - **Description**: Reverts the transaction with a custom error if `_value` is less than or equal to 0.
 
 ## Testing
@@ -30,11 +30,11 @@ The contract includes three main functions:
 - **Input**: `0`
   - **Expected Result**: Reverts with "Value must be greater than 0".
 
-### assertExample
+### assert_jikunn
 - **Precondition**: Call `updateBalance` with a value greater than `0` (e.g., `50`).
 - **Expected Result**: Function executes successfully.
 
-### revertExample
+### revert_jikunn
 - **Input**: `50`
   - **Expected Result**: Function executes successfully.
 - **Input**: `0`
