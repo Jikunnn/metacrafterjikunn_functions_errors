@@ -1,4 +1,4 @@
-# Smart Contract: jikunn_functions_errors
+# Smart Contract: jikunn_mc_function_errors.sol
 
 This Solidity smart contract demonstrates the use of `require()`, `assert()`, and `revert()` statements.
 
